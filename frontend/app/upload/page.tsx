@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
 import FileUpload from '@/components/FileUpload'
-import { Sparkles, Loader2, AlertTriangle, ShieldCheck, Cpu } from 'lucide-react'
+import { Sparkles, AlertTriangle, ShieldCheck, Cpu } from 'lucide-react'
 
 export default function UploadPage() {
   const router = useRouter()
@@ -32,11 +32,12 @@ export default function UploadPage() {
       const form = new FormData()
       form.append('file', file)
 
-      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'}/upload', {
-        method: 'POST',
-        body: form,
-        signal: controller.signal
-      })
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'}/upload`, {
+      method: 'POST',
+      body: form,
+      signal: controller.signal
+        })
+      
 
       const data = await res.json()
 
@@ -49,8 +50,8 @@ export default function UploadPage() {
       localStorage.setItem('simulationResult', JSON.stringify(data))
       router.push('/dashboard')
 
-    } catch (err: any) {
-      if (err.name === 'AbortError') {
+    } catch (err: unknown) {
+      if (err instanceof Error && err.name === 'AbortError') {
         setError('Request timed out while running Groq LLM inference. Please try again.')
       } else {
         setError('Could not connect to backend engine. Ensure Python FastAPI is active on port 8000.')

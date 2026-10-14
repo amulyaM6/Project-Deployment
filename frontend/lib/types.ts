@@ -30,6 +30,11 @@ export interface Recommendation {
   sector: string
 }
 
+export interface TwoStageScenario {
+  stage1_before: string
+  stage2_after: string
+}
+
 export interface TimelinePoint {
   period: string
   impact_score: number
@@ -89,6 +94,9 @@ export interface SimulationResult {
   risk_level?: 'High' | 'Medium' | 'Low'
   risk_dimensions?: RiskDimensions
   score_explanation?: string
+  two_stage_scenario?: TwoStageScenario
+  shap_importance?: Record<string, number>
+  xgboost_prediction?: number
   sectors: SectorScore[]
   states: StateImpact[]
   stakeholders: Stakeholder[]

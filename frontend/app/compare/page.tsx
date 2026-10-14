@@ -1,9 +1,9 @@
 'use client'
 
 import { useState } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion} from 'framer-motion'
 import { CompareResult } from '@/lib/types'
-import { GitCompare, FileText, Trophy, CheckCircle2, AlertTriangle, ArrowRight, Sparkles, Scale } from 'lucide-react'
+import { GitCompare, FileText, Trophy, CheckCircle2, AlertTriangle, Sparkles, Scale } from 'lucide-react'
 
 export default function Compare() {
   const [file1, setFile1] = useState<File | null>(null)
@@ -31,7 +31,7 @@ export default function Compare() {
       form.append('file1', file1)
       form.append('file2', file2)
 
-      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'}/compare', {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'}/compare`, {
         method: 'POST',
         body: form,
       })
@@ -45,7 +45,7 @@ export default function Compare() {
       if (data.common_fields && data.common_fields.length > 0) {
         setSelectedField(data.common_fields[0])
       }
-    } catch (err) {
+    } catch {
       setError('Could not connect to backend engine.')
     }
     setLoading(false)
