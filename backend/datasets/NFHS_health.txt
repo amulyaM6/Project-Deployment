@@ -1,0 +1,44 @@
+SOURCE: National Family Health Survey (NFHS-5), 2019-21
+Ministry of Health and Family Welfare, Government of India / International Institute for Population Sciences
+Free official source (Phase-I compendium, 22 states/UTs):
+https://dhsprogram.com/pubs/pdf/OF43/NFHS-5_India_and_State_Factsheet_Compendium_Phase-I.pdf
+
+COVERAGE NOTE (important — read before using):
+NFHS-5 covered India in two phases. Phase-I (22 states/UTs) data is public and free.
+Phase-II covered the remaining 14 states/UTs but was delayed by COVID-19; a single
+combined free compendium for all 36 states/UTs was not located as of this data pull
+(Sept 2026) — it may exist behind institutional/paid access, or under a different
+document name worth searching for separately.
+Within Phase-I itself, only 5 of the 22 states/UTs are captured below in full detail;
+the remaining 17 Phase-I states have factsheets in the same source PDF but were not
+extracted in this pass due to length. This file should be treated as a partial,
+in-progress health dataset, not a complete one — expand it before relying on it for
+anything beyond these 5 states.
+
+Format: State/UT | Institutional Births % | Infant Mortality Rate (per 1,000) | Under-5 Mortality Rate (per 1,000) | Children Stunted % | Children Wasted % | Women (15-49) Anaemic % | Men (15-49) Anaemic % | Households with Health Insurance % | Total Fertility Rate
+
+Andaman & Nicobar Islands | 99.0% | na (sample too small) | na (sample too small) | 22.5% | 16.0% | 57.5% | 16.1% | 1.6% | 1.3
+Andhra Pradesh | 96.5% | 30.3 | 35.2 | 31.2% | 16.1% | 58.8% | 16.2% | 70.2% | 1.7
+Assam | 84.1% | 31.9 | 39.1 | 35.3% | 21.7% | 65.9% | 36.0% | 60.0% | 1.9
+Bihar | 76.2% | 46.8 | 56.4 | 42.9% | 22.9% | 63.5% | 29.5% | 14.6% | 3.0
+Dadra & Nagar Haveli and Daman & Diu | na (sample too small) | 31.8 | 37.0 | na | na | na | na | 52.0% | 1.8
+Karnataka | 97.0% | 25.4 | 29.5 | 35.4% | 19.5% | 47.8% | 19.6% | 28.1% | 1.7
+
+NOTES:
+- "na" means the source factsheet suppressed the value due to small sample size, not that
+  no survey was done.
+- This file currently gives real coverage for 6 states/UTs (out of 36 total). The
+  datasets.py sector_map marks "healthcare" as data_grounded=True at the sector level
+  once ANY real data exists — for per-state accuracy, cross-check against this list
+  before trusting a specific state's healthcare number.
+- Individual state factsheets are much easier to fetch than the 22-state compendium PDF
+  (which only returns its first pages regardless of how it's queried). Search
+  "rchiips.org NFHS-5 [state name] state factsheet pdf" or check data.opencity.in for
+  each remaining state.
+- Remaining Phase-I states/UTs still needed: Chandigarh, Chhattisgarh, Goa, Gujarat,
+  Haryana, Himachal Pradesh, Jammu & Kashmir, Kerala, Lakshadweep, Maharashtra,
+  Puducherry, Sikkim, Tamil Nadu, Tripura, West Bengal (15 more).
+- Phase-II states (14 total, surveyed later, separate compendium needed): Arunachal
+  Pradesh, Chhattisgarh [check], Madhya Pradesh, Manipur, Meghalaya, Mizoram, Nagaland,
+  NCT of Delhi, Odisha, Punjab, Rajasthan, Telangana, Uttar Pradesh, Uttarakhand,
+  West Bengal [check exact Phase-II list — some overlap uncertainty in source doc].

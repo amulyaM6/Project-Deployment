@@ -1,0 +1,63 @@
+SOURCE: UDISE+ (Unified District Information System for Education Plus) Report 2023-24
+Ministry of Education, Government of India, Department of School Education & Literacy
+Published: 30 December 2024. This is the most recent UDISE+ report available.
+Free, official source: https://dsel.education.gov.in/sites/default/files/statistics/report_in_PDF/udise_report_existing_23_24.pdf
+
+=== NATIONAL HIGHLIGHTS, 2023-24 ===
+Total schools: 1,471,891
+Total enrolment (pre-primary to higher secondary): 248,045,828
+Total teachers: 9,807,600
+Gross Enrolment Ratio (GER) - Primary: 93.0 | Upper Primary: 89.7 | Secondary: 77.4 | Higher Secondary: 56.2
+Dropout Rate - Primary: 1.9% | Upper Primary: 5.2% | Secondary: 14.1%
+Pupil Teacher Ratio (PTR) - Primary: 21 | Upper Primary: 18 | Secondary: 16 | Higher Secondary: 24
+% schools with electricity: 91.8% | drinking water: 98.3% | internet: 53.9% | computers: 57.2%
+
+=== STATE-WISE KEY INDICATORS, 2023-24 ===
+Format: State | Total Schools | Total Enrolment | Total Teachers | PTR | % Schools with Electricity | % Schools with Internet | % Schools with Computer Facility | % General Category Enrolment | % SC Enrolment | % ST Enrolment | % OBC Enrolment
+
+Andaman & Nicobar Islands | 412 | 72,119 | 5,750 | 13 | 93.2% | 58.0% | 68.7% | 62.2% | 0.6% | 9.6% | 27.6%
+Andhra Pradesh | 61,373 | 8,741,885 | 338,293 | 26 | 99.8% | 94.0% | 87.3% | 21.4% | 19.7% | 7.0% | 51.9%
+Arunachal Pradesh | 3,490 | 323,717 | 24,700 | 13 | 68.8% | 30.5% | 42.6% | 21.2% | 2.0% | 72.7% | 4.1%
+Assam | 56,630 | 6,922,533 | 342,199 | 20 | 87.0% | 45.0% | 67.9% | 51.1% | 7.2% | 15.0% | 26.6%
+Bihar | 94,686 | 21,348,149 | 657,063 | 32 | 79.8% | 18.5% | 19.6% | 14.8% | 18.9% | 1.9% | 64.4%
+Chandigarh | 230 | 265,706 | 10,237 | 26 | 100.0% | 99.6% | 100.0% | 87.0% | 8.7% | 0.3% | 4.0%
+Chhattisgarh | 56,615 | 5,776,548 | 278,798 | 21 | 94.7% | 61.3% | 67.3% | 9.1% | 14.4% | 29.8% | 46.6%
+Dadra & Nagar Haveli and Daman & Diu | 432 | 141,282 | 4,995 | 28 | 100.0% | 99.3% | 97.0% | 48.5% | 2.5% | 36.8% | 12.3%
+Delhi | 5,497 | 4,506,578 | 160,479 | 28 | 100.0% | 100.0% | 100.0% | 83.8% | 9.6% | 0.5% | 6.1%
+Goa | 1,487 | 304,735 | 14,594 | 21 | 100.0% | 87.6% | 56.2% | 78.0% | 1.9% | 8.6% | 11.4%
+Gujarat | 53,626 | 11,496,709 | 394,053 | 29 | 99.9% | 93.9% | 98.0% | 30.3% | 6.5% | 16.9% | 46.3%
+Haryana | 23,517 | 5,599,742 | 250,909 | 22 | 99.8% | 67.7% | 96.6% | 50.4% | 20.9% | 0.0% | 28.7%
+Himachal Pradesh | 17,826 | 1,426,412 | 101,131 | 14 | 99.6% | 48.7% | 47.5% | 54.7% | 25.7% | 5.9% | 13.8%
+Jammu & Kashmir | 24,296 | 2,629,949 | 167,046 | 16 | 91.0% | 45.4% | 41.4% | 70.2% | 8.2% | 14.0% | 7.6%
+Jharkhand | 44,475 | 7,143,255 | 206,591 | 35 | 95.2% | 52.7% | 75.3% | 13.0% | 12.7% | 27.4% | 46.9%
+Karnataka | 75,869 | 11,926,303 | 433,942 | 27 | 99.0% | 49.2% | 52.9% | 10.4% | 18.4% | 7.6% | 63.7%
+Kerala | 15,864 | 6,281,704 | 291,096 | 22 | 99.9% | 92.1% | 99.4% | 20.4% | 8.6% | 1.5% | 69.5%
+Ladakh | 995 | 56,642 | 6,432 | 9 | 79.5% | 45.7% | 53.0% | 6.8% | 0.4% | 92.6% | 0.3%
+Lakshadweep | 37 | 12,591 | 911 | 14 | 100.0% | 100.0% | 100.0% | 0.7% | 0.5% | 97.3% | 1.5%
+Madhya Pradesh | 123,412 | 15,361,543 | 639,525 | 24 | 89.8% | 43.3% | 49.3% | 15.3% | 17.2% | 22.1% | 45.4%
+Maharashtra | 108,237 | 21,375,970 | 738,114 | 29 | 94.6% | 67.5% | 81.5% | 43.2% | 12.5% | 11.2% | 33.2%
+Manipur | 4,646 | 647,434 | 40,921 | 16 | 67.7% | 32.3% | 33.5% | 23.4% | 4.9% | 40.0% | 31.7%
+Meghalaya | 14,601 | 1,052,884 | 55,726 | 19 | 29.3% | 24.5% | 18.8% | 6.1% | 1.9% | 90.8% | 1.1%
+Mizoram | 3,941 | 293,763 | 23,013 | 13 | 87.2% | 24.9% | 46.6% | 1.0% | 1.2% | 97.6% | 0.2%
+Nagaland | 2,725 | 412,975 | 32,602 | 13 | 81.0% | 56.3% | 84.3% | 10.0% | 2.1% | 83.8% | 4.0%
+Odisha | 61,693 | 7,756,910 | 335,496 | 23 | 96.5% | 82.0% | 59.4% | 17.2% | 18.5% | 27.1% | 37.1%
+Puducherry | 735 | 244,828 | 13,202 | 19 | 100.0% | 100.0% | 100.0% | 8.2% | 18.0% | 0.4% | 73.5%
+Punjab | 27,404 | 5,988,681 | 273,092 | 22 | 100.0% | 74.0% | 98.8% | 47.8% | 36.6% | 0.1% | 15.5%
+Rajasthan | 107,757 | 16,786,065 | 775,745 | 22 | 91.4% | 68.3% | 51.6% | 16.8% | 19.6% | 14.6% | 49.0%
+Sikkim | 1,254 | 121,395 | 15,489 | 8 | 98.8% | 46.8% | 91.9% | 21.0% | 8.6% | 35.5% | 34.9%
+Tamil Nadu | 58,722 | 12,993,050 | 550,558 | 24 | 99.0% | 98.9% | 72.7% | 3.8% | 22.2% | 1.4% | 72.6%
+Telangana | 42,901 | 7,293,644 | 341,460 | 21 | 95.2% | 39.9% | 77.9% | 24.3% | 16.0% | 10.0% | 49.7%
+Tripura | 4,923 | 689,408 | 37,661 | 18 | 79.2% | 35.3% | 49.3% | 26.2% | 18.7% | 36.3% | 18.7%
+Uttar Pradesh | 255,087 | 41,662,794 | 1,538,479 | 27 | 86.4% | 38.6% | 40.2% | 19.5% | 22.9% | 1.0% | 56.6%
+Uttarakhand | 22,551 | 2,372,400 | 130,741 | 18 | 92.3% | 68.5% | 86.6% | 48.7% | 20.3% | 2.3% | 28.7%
+West Bengal | 93,945 | 18,015,525 | 576,557 | 31 | 98.0% | 17.5% | 22.3% | 56.4% | 25.0% | 6.4% | 12.2%
+
+NOTES:
+- GER (Gross Enrolment Ratio) by individual state, by level, is published as bar charts in the source
+  report rather than a single table; national-level GER by level is given above. State-level GER
+  ranking (highest to lowest, Primary level) from the report: Meghalaya, Mizoram, Manipur, Goa and
+  Tripura rank highest; Madhya Pradesh, Gujarat, Uttar Pradesh and Bihar rank lowest.
+- "Others" category schools/management type omitted from this condensed extract for brevity; full
+  breakdown is in the source PDF if needed later.
+- Data reference date: 31 March 2024 (academic year 2023-24), released 30 Dec 2024. This is UDISE+'s
+  latest published report as of Sept 2026.

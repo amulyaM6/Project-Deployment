@@ -1,0 +1,66 @@
+SOURCE: NITI Aayog & Ministry of Health and Family Welfare, "Healthy States, Progressive India"
+Health Index, Round IV (2019-20). Released 27 December 2021. Developed with World Bank
+technical assistance. This is NITI Aayog's official composite Health Index — the most recent
+round released as of this data pull (Sept 2026); a Round V has not been published yet.
+Free official source: https://www.niti.gov.in/sites/default/files/2023-02/NITI-WB_Health_Index_Report_24-12-21.pdf
+
+WHAT THIS SCORE MEANS:
+A single 0-100 composite score per state, built from 24 indicators across three domains:
+Health Outcomes (mortality rates, sex ratio at birth — highest weight), Governance and
+Information, and Key Inputs and Processes (staffing, facility functionality, etc). Higher =
+better health system performance. This is a DIFFERENT kind of number from the NFHS file
+(which has 131 raw survey indicators) — this is a single ready-made composite score, useful
+as a quick per-state health baseline.
+
+COVERAGE: 19 of 19 "Larger States" (full coverage), 3 of 8 "Smaller States", 3 of 7 Union
+Territories. West Bengal did not participate in this round (no score available from any
+edition after this). Ladakh has no data (created as a UT after this survey's cutoff).
+Several Smaller States and UTs are not included below because their exact scores could not
+be confidently read from the source PDF's chart data on this pass — see NOTES.
+
+=== LARGER STATES — Overall Health Index Score, Reference Year 2019-20 (full coverage, 19/19) ===
+State | Health Index Score (0-100) | Category
+Kerala | 82.20 | Front-runner (rank 1)
+Tamil Nadu | 72.42 | Front-runner (rank 2)
+Telangana | 69.96 | Front-runner (rank 3)
+Andhra Pradesh | 69.95 | Front-runner (rank 4)
+Maharashtra | 69.14 | Front-runner (rank 5)
+Gujarat | 63.59 | Achiever (rank 6)
+Punjab | 63.17 | Achiever (rank 7)
+Karnataka | 58.08 | Achiever (rank 8)
+Chhattisgarh | 57.93 | Achiever (rank 9)
+Haryana | 50.70 | Achiever (rank 10)
+Himachal Pradesh | 49.26 | Achiever (rank 11)
+Odisha | 47.74 | Aspirant (rank 12)
+Assam | 47.55 | Aspirant (rank 13)
+Uttarakhand | 44.31 | Aspirant (rank 14)
+Jharkhand | 44.21 | Aspirant (rank 15)
+Rajasthan | 41.33 | Aspirant (rank 16)
+Madhya Pradesh | 36.72 | Aspirant (rank 17)
+Bihar | 31.00 | Aspirant (rank 18)
+Uttar Pradesh | 30.57 | Aspirant (rank 19, lowest of all Larger States)
+
+=== SMALLER STATES — confident scores only (3 of 8; others not reliably extracted this pass) ===
+Mizoram | 75.77 | Front-runner (best of all Smaller States)
+Tripura | 70.16 | Front-runner
+Nagaland | 27.00 | Aspirant (worst of all Smaller States)
+(Not yet added: Arunachal Pradesh, Goa, Manipur, Meghalaya, Sikkim — all participated and have
+scores in the source report, just not confidently transcribed in this pass; re-fetch the PDF
+and check Figure 2.12/2.13 to add them.)
+
+=== UNION TERRITORIES — confident scores only (3 of 7; others not reliably extracted this pass) ===
+Dadra & Nagar Haveli and Daman & Diu (DH & DD) | 66.19 | Front-runner (best of all UTs)
+Chandigarh | 62.53 | Front-runner
+Andaman & Nicobar | 44.74 | (worst of all UTs)
+(Not yet added: Delhi, Jammu & Kashmir, Lakshadweep, Puducherry — all participated and have
+scores in the source report, just not confidently transcribed in this pass.)
+
+NOTES:
+- All Larger State scores above are exact and confident (cross-verified against two separate
+  tables/figures in the source document that both cite the same numbers).
+- Smaller State and UT scores marked above are confident (directly quoted in the report's
+  Executive Summary as "best"/"worst" performers); the remaining ones need a follow-up fetch
+  of the same PDF, focused on Figure 2.12 (Smaller States) and Figure 2.20 (UTs) specifically.
+- This is Round IV (2019-20 data) — the most recent round released. Health outcomes will have
+  shifted since (especially post-COVID), so treat this as a directional baseline, not current-day
+  precision, and note that explicitly if used in any headline claim.
