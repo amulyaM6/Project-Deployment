@@ -34,7 +34,7 @@ export default function Navbar() {
         </div>
         <span className="hidden sm:inline-flex items-center gap-1 px-2.5 py-0.5 text-[10px] font-bold tracking-wider uppercase text-indigo-700 bg-indigo-50 border border-indigo-200/80 rounded-full shadow-2xs">
           <span className="w-1.5 h-1.5 rounded-full bg-indigo-500 animate-ping" />
-          v2.0 ABM+MC
+          v2.0 · Monte Carlo
         </span>
       </Link>
 

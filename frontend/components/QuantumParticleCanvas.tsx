@@ -100,7 +100,7 @@ export default function QuantumParticleCanvas() {
       alpha: number
     }
 
-    const mathSymbols = ['σ', '∑', 'Δ', 'P90', 'ABM', 'VaR', '∫', 'λ', 'μ', '10K', '⚡', '✦', '⚛']
+    const mathSymbols = ['σ', '∑', 'Δ', 'P90', 'MC', 'VaR', '∫', 'λ', 'μ', '10K', '⚡', '✦', '⚛']
     const symbols: FloatingSymbol[] = []
     for (let i = 0; i < 25; i++) {
       symbols.push({

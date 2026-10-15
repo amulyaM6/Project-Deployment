@@ -4,7 +4,6 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import QuantumParticleCanvas from '@/components/QuantumParticleCanvas'
-import LiveAgentGraph from '@/components/LiveAgentGraph'
 import HolographicGlobe from '@/components/HolographicGlobe'
 import MonteCarloFanChart from '@/components/MonteCarloFanChart'
 import SplitPolicySlider from '@/components/SplitPolicySlider'
@@ -112,7 +111,7 @@ export default function Home() {
           className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-50 border border-indigo-200/80 text-indigo-700 text-xs font-black uppercase tracking-widest mb-8 shadow-2xs"
         >
           <Sparkles className="w-3.5 h-3.5 text-indigo-600 animate-spin" />
-          Autonomous Multi-Agent Legal Simulation Engine
+          AI Policy Impact Analysis Engine
         </motion.div>
 
         {/* Hero Title */}
@@ -134,7 +133,7 @@ export default function Home() {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="text-slate-600 text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed mb-12 font-medium"
         >
-          Upload any government policy PDF or draft bill. Our AI pipeline instantiates economic agents, parses regulatory clauses into vector embeddings, and executes 10,000 Monte Carlo iterations across 28 Indian states.
+          Upload any government policy PDF or draft bill. Our AI pipeline retrieves the relevant clauses, rates risk against a fixed rubric with evidence quoted from the policy, and runs 10,000 Monte Carlo trials to show the uncertainty across 28 Indian states.
         </motion.p>
 
         {/* Action CTAs */}

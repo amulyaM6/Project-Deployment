@@ -87,6 +87,27 @@ export interface MonteCarloResult {
   }
 }
 
+export interface RaterRating {
+  model: string
+  score: number
+  reason: string
+  evidence: string
+  evidence_verified: boolean | null
+}
+
+export interface DimensionDetail {
+  score: number
+  spread: number
+  evidence_verified_count: number
+  confidence: 'high' | 'medium' | 'low'
+  ratings: RaterRating[]
+}
+
+export interface TwoStageScenario {
+  stage1_before: string
+  stage2_after: string
+}
+
 export interface SimulationResult {
   id: string
   policy_title: string
@@ -103,6 +124,11 @@ export interface SimulationResult {
   recommendations: Recommendation[]
   timeline: TimelinePoint[]
   monte_carlo?: MonteCarloResult
+  two_stage_scenario?: TwoStageScenario
+  risk_dimension_details?: Record<keyof RiskDimensions, DimensionDetail>
+  risk_confidence?: 'high' | 'medium' | 'low'
+  risk_models_used?: string[]
+  risk_contributions?: Record<string, number>
 }
 
 export interface SectorComparison {

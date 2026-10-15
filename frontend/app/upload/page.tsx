@@ -22,11 +22,11 @@ export default function UploadPage() {
       setTimeoutWarning(true)
     }, 15000)
 
-    // Cancel everything after 60 seconds
+    // Cancel everything after 3 minutes
     const controller = new AbortController()
     const timeoutTimer = setTimeout(() => {
       controller.abort()
-    }, 60000)
+    }, 180000)
 
     try {
       const form = new FormData()
@@ -86,7 +86,7 @@ export default function UploadPage() {
             Synthesize Policy Impact
           </h1>
           <p className="text-slate-600 text-base sm:text-lg max-w-lg mx-auto font-medium leading-relaxed">
-            Drop any draft legislative bill or government whitepaper to trigger 10,000 Monte Carlo agent iterations across 28 states.
+            Drop any draft legislative bill or government whitepaper for an evidence-checked risk analysis with 10,000-trial Monte Carlo uncertainty across 28 states.
           </p>
         </div>
 
@@ -103,7 +103,7 @@ export default function UploadPage() {
             </div>
             <h3 className="text-slate-900 font-extrabold text-xl mb-2">Analyzing Policy Vectors...</h3>
             {!timeoutWarning ? (
-              <p className="text-slate-500 text-xs sm:text-sm font-medium">Running multi-agent simulation models across 28 states and 5 economic sectors</p>
+              <p className="text-slate-500 text-xs sm:text-sm font-medium">Rating risk factors and running Monte Carlo uncertainty analysis across 28 states and 5 sectors</p>
             ) : (
               <p className="text-amber-600 text-xs font-bold bg-amber-50 border border-amber-200 p-3 rounded-xl mt-3 inline-block">
                 ⚠️ Processing high complexity clauses... Groq pipeline busy. Please stand by.

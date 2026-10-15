@@ -16,14 +16,6 @@ export const mockData: SimulationResult = {
     stage1_before: 'Before implementation, smallholder farmer families faced recurring liquidity crises during sowing seasons, depending heavily on informal high-interest moneylenders and risking crop failure due to input cost inflation.',
     stage2_after: 'After implementation, direct transfer of ₹6000 in 3 annual instalments stabilizes household liquidity and boosts crop investment; however, administrative verification bottlenecks and Aadhaar linkage delays create exclusion risks in remote regions.'
   },
-  shap_importance: {
-    'Regulatory Clause Scope': 0.35,
-    'Target Population Density': 0.28,
-    'Fiscal Outlay & Budget': 0.18,
-    'Environmental Risk Factor': 0.11,
-    'Digital Access Index': 0.08
-  },
-  xgboost_prediction: 68,
   sectors: [
     { name: 'Agriculture', score: 88, sentiment: 'positive', data_grounded: true },
     { name: 'Economy', score: 65, sentiment: 'neutral', data_grounded: true },

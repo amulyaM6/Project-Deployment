@@ -13,6 +13,8 @@ import ExportButton from '@/components/ExportButton'
 import TimelineChart from '@/components/TimelineChart'
 import IndiaMap from '@/components/IndiaMap'
 import RiskBreakdown from '@/components/RiskBreakdown'
+import TwoStageScenarioCard from '@/components/TwoStageScenarioCard'
+import RiskEvidence from '@/components/RiskEvidence'
 import MonteCarloFanChart from '@/components/MonteCarloFanChart'
 import { runMonteCarlo } from '@/lib/api'
 import {
@@ -194,8 +196,18 @@ export default function Dashboard() {
                 </div>
               </div>
 
+              {/* Two-stage scenario (before / after) with read-aloud */}
+              <TwoStageScenarioCard scenario={data.two_stage_scenario} />
+
               {/* Risk Dimensions Breakdown */}
               <RiskBreakdown dimensions={data.risk_dimensions} explanation={data.score_explanation} />
+              {/* Why this score? rater evidence, confidence, exact contributions */}
+              <RiskEvidence
+                details={data.risk_dimension_details}
+                contributions={data.risk_contributions}
+                confidence={data.risk_confidence}
+                models={data.risk_models_used}
+              />
 
               {/* Timeline Forecast Summary */}
               {data.timeline && data.timeline.length > 0 && (

@@ -6,7 +6,7 @@ import { Calculator, ShieldAlert, Layers, Activity, Users2 } from 'lucide-react'
 
 const DIMENSION_CONFIG: Record<keyof RiskDimensions, { label: string; icon: any; description: string }> = {
   severity: { label: 'Severity', icon: ShieldAlert, description: 'Potential severity of unintended policy outcomes' },
-  plausibility: { label: 'Plausibility', icon: Activity, description: 'Likelihood based on historical economic data' },
+  plausibility: { label: 'Plausibility', icon: Activity, description: 'Likelihood of the side-effects occurring' },
   magnitude: { label: 'Magnitude', icon: Layers, description: 'Overall fiscal & demographic footprint' },
   vulnerable_population: { label: 'Vulnerable Index', icon: Users2, description: 'Proportion of marginal communities affected' },
 }
@@ -32,8 +32,8 @@ export default function RiskBreakdown({
           <Calculator className="w-5 h-5" />
         </div>
         <div>
-          <h2 className="text-base font-extrabold text-slate-900">Deterministic Risk Dimensions</h2>
-          <p className="text-slate-400 text-xs font-medium">Algorithmic risk factor decomposition</p>
+          <h2 className="text-base font-extrabold text-slate-900">Risk Dimensions (rubric-rated)</h2>
+          <p className="text-slate-400 text-xs font-medium">Median of three rater scores, combined by a fixed formula</p>
         </div>
       </div>
 
